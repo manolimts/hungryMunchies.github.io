@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/63/63000.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="orderNowPage.css">
+    <script src="orderNowPage.js" defer></script>
+    <title>Select Your Munchy..</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar_container">
+            <a href="/JavaScript/Project/project.html" id="navbar_logo">
+                Hungry Munchies
+                <hr>
+                <hr>
+                <hr>
+                <hr>
+                <i class="fa-solid fa-burger"></i>&#8482;&#65039;
+            </a>
+            <div class="navbar_toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar_menu">
+                <li class="navbar_item">
+                    <a href="/JavaScript/Project/project.html" class="navbar_links" id="homeButton">Home</a>
+                </li>
+                <li class="navbar_btn">
+                    <a href="#" class="navButton" id="cart-link">
+                        <i id="cart-icon" class="fa-solid fa-cart-shopping" height="25px" width="25px" style="color:#324A5F; font-size: smaller;">
+                            <span class="quantity">0</span></i>
+                        <br>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="shoppingContainer">
+        <header>
+            <h1>SELECT YOUR MUNCHY.....</h1>
+        </header>
+        <div class="list">
+            <!-- Your list of items goes here -->
+        </div>
+    </div>
+    <div class="cart">
+        <h1>Your Cart</h1>
+        <ul class="cartList">
+            <!-- Selected items will be displayed here -->
+        </ul>
+        <div class="checkOut">
+            <a href="/JavaScript/Project/checkOutPage.html" style="text-decoration: none; color: #324A5F;"><div class="total">0</div></a>
+            <div class="closeShopping">CLOSE</div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+

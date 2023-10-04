@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hungry Munchies™</title>
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/63/63000.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="checkOutPage.js" defer></script>
+    <link rel="stylesheet" href="checkOutPage.css">
+   
+</head>
+<body>
+    <nav class="navbar">
+    <div class="navbar_container">
+    <a href="/JavaScript/Project/project.html" id="navbar_logo">Hungry Munchies
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <i class="fa-solid fa-burger"></i>&#8482;&#65039;
+    </a>
+    <div class="navbar_toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
+    <ul class="navbar_menu">
+    <li class="navbar_item">
+    <a href="/JavaScript/Project/project.html" class="navbar_links">Home</a></li>
+    </ul>
+    </div>
+    </nav>
+
+<div class="formContainer">
+    <h2 class="formTitle">Payment Details</h2>
+    <form action="" class="checkoutForm">
+        <div class="inputLine">
+            <label for="name">Cardholders Name</label>
+            <input type="text" name="name" id="name" placeholder="First Name and Last Name">
+        </div>
+        <div class="inputLine">
+            <label for="name">16-digit Card Number</label>
+            <input type="text" name="card" id="card" placeholder="0000-0000-0000-0000">
+        </div>
+        <div class="inputContainer">
+            <div class="inputLine">
+                <label for="date">Expiry Date</label>
+                <input type="text" name="date" id="date" placeholder="MM-YY">
+            </div>
+            <div class="inputLine">
+                <label for="date">CVC</label>
+                <input type="text" name="CVC" id="CVC" placeholder="000">
+            </div>
+        </div>
+        <input type="button" value="Purchase Food">
+    </form>
+</div>
